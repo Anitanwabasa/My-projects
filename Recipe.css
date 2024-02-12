@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'youngserif';
+    src: url('Youngserif.ttf');
+}
+
+@font-face{
+    font-family: 'outfit';
+    src: url('outfit.ttf');
+}
+
+html{
+    margin-right:1em;  
+    margin-left: 1em;
+}
+
+h1, h2{
+    font-family: 'youngserif';
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-size: 2rem;
+}
+ span:nth-child(3) {
+     display: block;
+     margin-bottom: 2em;
+     
+ }
+ 
+
+body:not(h1, h2, h3, td:nth-child(2)){
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+}
+
+body:not(h1, h2){
+  font-family: 'outfit'; 
+}
+img{
+    border-radius: 10px;
+    width:100%;    
+} 
+
+h2, td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+  color:hsl(332, 51%, 36%);  
+}
+#prep{
+    background-color: hsl(330, 100%, 98%);
+    padding-inline: 1em;
+    padding-block: 0.1em;
+    border-radius: 10px;
+}
+li{
+    margin-bottom: 1em;
+}
+hr{
+    border-top:none;
+    border-bottom:solid 0.1px silver;
+}
+table {
+border-collapse:
+collapse;
+border: none;
+width: 100%;
+}
+tr {
+border-top:none;
+    border-bottom:solid 0.1px silver;
+}
+tr:first-child {
+border-top: none;
+}
+
+#list1 > li::marker{
+    font-size:0.8em;
+    color:hsl(332, 51%, 36%);  
+    padding-right:5em;
+    
+}
+
+#list1 > li:not(::marker){
+    color: red;
+}
+
+
+#list2 > li::marker{
+    font-size:0.8em;
+    color: hsl(14, 45%, 36%);
+    padding-right:5em;
+    
+}
+
+
+#list3 > li::marker{
+    font-size:0.8em;
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    
+}
+
+tr:last-child {
+border-bottom: none;
+}
+td{
+border: none !imp
+ortant;
+padding-block: 0.6em;
+
+}
+td:nth-child(2){
+    font-weight: 600;
+    font-size: 0.8em;
+}
+td:first-child{
+  padding-left: 1em;
+}
+
+#span2{
+    display: block;
+    margin-bottom: 1em;
+}
